@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/buttonWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Completa tus datos"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="22sp"
+                android:textColor="@color/textButtonColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_weight="1"
+                    android:layout_marginRight="4dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_first_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nombre"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_weight="1"
+                    android:layout_marginRight="4dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_last_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Apellido"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_phone_number"
+                    android:hint="+502 0000 0000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_register"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

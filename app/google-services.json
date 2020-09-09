@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "68642420084",
+    "firebase_url": "https://ryokoapp-985bc.firebaseio.com",
+    "project_id": "ryokoapp-985bc",
+    "storage_bucket": "ryokoapp-985bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68642420084:android:6f6bf4d1c1adc5b42fa821",
+        "android_client_info": {
+          "package_name": "com.gabo.ryoko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68642420084-4l9cb1lljb49v9u665im5e3titv85tgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARMwcyCSD1pHS4cprFUlXMDvoaEO8lQ4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68642420084-4l9cb1lljb49v9u665im5e3titv85tgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68642420084:android:a31df38bbeb97fac2fa821",
+        "android_client_info": {
+          "package_name": "com.gabo.ryokoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68642420084-4l9cb1lljb49v9u665im5e3titv85tgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARMwcyCSD1pHS4cprFUlXMDvoaEO8lQ4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68642420084-4l9cb1lljb49v9u665im5e3titv85tgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
