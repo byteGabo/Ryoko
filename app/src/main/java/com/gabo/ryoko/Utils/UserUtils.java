@@ -1,8 +1,11 @@
 package com.gabo.ryoko.Utils;
 
+import android.content.Context;
 import android.view.View;
+import android.widget.Toast;
 
 import com.gabo.ryoko.Common.Common;
+import com.gabo.ryoko.Model.TokenModel;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
@@ -18,5 +21,19 @@ public class UserUtils {
                 .updateChildren(updateData)
                 .addOnFailureListener(e -> Snackbar.make(view, e.getMessage(),Snackbar.LENGTH_SHORT).show())
                 .addOnSuccessListener(aVoid -> Snackbar.make(view,"La información ha sido actualizada",Snackbar.LENGTH_SHORT).show());
+    }
+
+    public static void updateToken(Context context, String token) {
+        TokenModel tokenModel = new TokenModel(token);
+
+        FirebaseDatabase.getInstance()
+                .getReference(Common.TOKEN_REFERENCE)
+                .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                .setValue(tokenModel)
+                .addOnFailureListener(e -> Toast.makeText(context,e.getMessage(),Toast.LENGTH_SHORT).show()).addOnSuccessListener(aVoid -> {
+
+        });
+
+
     }
 }

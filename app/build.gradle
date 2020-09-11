@@ -72,4 +72,7 @@ dependencies {
     //Firebase Storage
     implementation 'com.google.firebase:firebase-storage:19.1.1'
 
+    //FCM
+    implementation 'com.google.firebase:firebase-messaging:20.2.0'
+
 }
