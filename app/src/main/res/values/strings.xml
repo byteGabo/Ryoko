@@ -13,4 +13,7 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_maps">Map</string>
     <string name="menu_sign_out">Cerrar Sesion</string>
+    <string name="permission_requiere">Location permission requiere</string>
+    <string name="drivers_not_found">No se encontraron pilotos</string>
+    <string name="not_found_key">"No se encontro conductor con la llave "</string>
 </resources>
